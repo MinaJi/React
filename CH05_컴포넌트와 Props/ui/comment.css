@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(42, 27, 78);
+}
+
+.comment {
+    margin: 0 auto;
+    padding: 80px;
+    display: flex;
+}
+
+.avartar {
+    width: 150px;
+}
+
+.user-info {
+    display: flex;
+    margin-right: 50px;
+}
+
+.user-info-name {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(142, 177, 131);
+    /* line-height: 100px; */
+}
+
+.comment-txt {
+    font-size: 18px;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.244);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+.comment-date {
+    margin-top: 35px;
+}
