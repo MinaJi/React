@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(216, 216, 216); */
+  background-image: url('https://cdn.pixabay.com/photo/2018/08/15/13/10/galaxy-3608029_960_720.jpg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.comment {
+  margin: 0 auto;
+  padding: 80px;
+  display: flex;
+}
+
+.avartar {
+  width: 150px;
+}
+
+.user-info {
+  display: flex;
+  margin-right: 50px;
+}
+
+.user-info-name {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  /* line-height: 100px; */
+}
+
+.comment-txt {
+  font-size: 18px;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.756);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.comment-date {
+  margin-top: 35px;
+}
