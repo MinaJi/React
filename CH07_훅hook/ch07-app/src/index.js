@@ -7,10 +7,9 @@ import UseState01 from './hooks/1_useState/UseState01';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <UseState01 />
-  </React.StrictMode>
+  <>
+    <App />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
