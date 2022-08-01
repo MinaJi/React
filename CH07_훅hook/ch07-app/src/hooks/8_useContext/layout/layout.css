@@ -1,0 +1,21 @@
+nav * {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+nav .active {
+    color: #8E24AA;
+}

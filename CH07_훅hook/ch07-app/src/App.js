@@ -14,12 +14,14 @@ import UseMemo02 from './hooks/4_useMemo/UseMemo02';
 import UseCallback02 from './hooks/5_useCallback/UseCallback02';
 import UseCallback03 from './hooks/5_useCallback/UseCallback03';
 import UseReducer02 from './hooks/6_useReducer/UseReducer02';
+import UseReducer03 from './hooks/6_useReducer/UseReducer03';
+import Parents from './hooks/7_React.memo/Parents';
  
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseReducer02 />
+        <Parents />
       </header>
     </div>
   );
